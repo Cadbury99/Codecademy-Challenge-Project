@@ -1,0 +1,316 @@
+/* Color Theme Swatches in Hex */
+.Game-Design-1-hex { color: #D9525E; }
+.Game-Design-2-hex { color: #0C2E59; }
+.Game-Design-3-hex { color: #175073; }
+.Game-Design-4-hex { color: #2E8C83; }
+.Game-Design-5-hex { color: #05F2AF; }
+
+
+/*     font-family: 'Libre Baskerville', serif;
+            (400 & 700 weights)
+    font-family: 'Nunito', sans-serif;
+            (400 & 700 weights)
+    font-family: 'Source Sans Pro', sans-serif;
+            (400, 600, 700 & 900 weights)      */
+
+
+html {
+        font-size: 16px;
+}
+
+* {
+        box-sizing: border-box;
+}
+
+header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10% auto;
+        background-image: linear-gradient(#D9525E,#05F2AF);
+        border-bottom: 3px solid black;
+        background-size: cover;
+        margin-bottom: 3rem;
+        color: #0C2E59;
+        z-index: 1;
+}
+
+nav {
+        text-align: center;
+}
+
+nav li {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 400;
+        font-size: 1.20rem;
+        letter-spacing: .2rem;
+        display: inline-block;
+        margin-right: 7rem;
+        text-transform: uppercase;
+}
+
+nav li a {
+        text-decoration: none;
+        color: #0C2E59;
+}
+
+nav li a:visited {
+        color: #0C2E59;
+}
+
+a {
+        color: #0C2E59;
+        text-decoration: none;
+}
+
+a:visited {
+        color:#2E8C83;
+}
+
+a:hover {
+        color:#175073;
+        cursor: pointer;
+}
+
+body {
+        color: #1F1F1F;
+        padding-bottom: 5rem;
+        margin-bottom: 20px;
+}
+
+main {
+        float: left;
+        width: 65%;
+        overflow: auto;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        position: relative;
+        top: 150px;
+}
+
+h1 {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 700;
+        font-size: 3rem;
+        color: #0C2E59;
+}
+
+h2 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 900;
+        font-size: 2rem;
+        letter-spacing: .1rem;
+}
+
+h3 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        font-size: 1.75rem;
+}
+
+h4 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding-bottom: .5rem;
+        margin-bottom: 2rem;
+}
+
+p {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main p.paragraph {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        border-bottom: .5px solid #D9525E;
+        color: #0C2E59;
+}
+
+footer {
+        display: block;
+        background-color: #0C2E59;
+        height: 20px;
+        border-top: 2px solid black;
+        width: 100%;
+        position: relative;
+        top: 200;
+        left: 0;
+        text-align: left;
+}
+
+/* --------------- Main Page ---------------*/
+
+
+
+
+article p {
+        line-height: 1.5em;
+}
+
+figure {
+        margin: 2% auto 2% auto;
+        float: left;        
+        border-right: .5px solid #D9525E;
+        margin-right: 2rem;
+}
+
+figcaption {
+        float: right;
+        width: 175px;
+        height: auto;
+        margin-left: 3rem;
+        padding-top: 10px;
+        font-size: .85rem;
+        padding-right: 1rem;
+}
+
+img {
+        width: 300px;
+        height: auto;
+        padding-top: 10px;
+}
+
+aside {
+        float: right;
+        border-left: 1.5px solid #05F2AF;
+        padding: .5rem .5rem .5rem 1rem;
+        width: 265px;
+        margin-top: 3rem;
+        position: relative;
+        top: 150px;
+}
+
+aside h4 {
+        color: #D9525E;
+        border-bottom: .5px solid #05F2AF;
+        padding-bottom: .5rem;
+        margin-bottom: 2rem;
+}
+
+aside p {
+        color: #0C2E59;
+}
+
+
+
+/* --------------- The Colors Page --------------- */
+
+table {
+        margin-top: 3rem;
+        text-align: center;
+        width: 95%;
+        border-collapse: separate;
+        border-spacing: 1.5rem 2rem;
+        border: 1px solid black;
+        background-color: #D8D8D8;
+        margin-bottom: 20px;
+}
+
+.large {
+        height: 200px;
+        column-width: 30%;
+        border: 1.5px solid black;
+        margin: 1rem;
+        font-weight: 700;
+        font-size: 1.25rem;
+        letter-spacing: .1em;
+}
+
+.lgtext {
+        border: 1.5px solid black;
+}
+
+.small {
+        height: 100px;
+        border: 1.5px solid black;
+        margin: 1rem;
+        font-weight: 700;
+        font-size: 1.25rem;
+        letter-spacing: .1em;
+}
+
+.smtext {
+        border: 1.5px solid black;
+}
+
+.salmon {
+        background-color: #d9525e;
+        border: 1px solid black;
+}
+
+.ocean {
+        background-color: #0C2E59;
+        border: 1px solid black;
+        color: #FFFFFF
+}
+
+.mint {
+        background-color: #05F2AF;
+        border: 1px solid black;
+}
+
+.cottage {
+        background-color: #175073;
+        border: 1px solid black;
+        color: #FFFFFF
+}
+
+.seafoam {
+        background-color: #2E8C83;
+        border: 1px solid black;
+        color: #FFFFFF;
+}
+
+.graphite {
+        background-color: #1F1F1F;
+        border: 1px solid black;
+        color: #FFFFFF
+}
+
+
+/* --------------- The Fonts ---------------*/
+
+.Baskerville {
+        font-family: 'Baskerville';
+}
+
+.Nunito {
+        font-family: 'Nunito';
+}
+
+.Source {
+        font-family: 'Source Sans Pro';
+}
+
+.regular {
+        font-weight: 400;
+}
+
+.bold {
+        font-weight: 700;
+}
+
+.semi-bold {
+        font-weight: 600;
+}
+
+.black {
+        font-weight: 900;
+}
+
+/* --------------- Text Styles --------------- */
+
+.text li {
+        font-family: 'Nunito';
+        font-size: 1rem;
+        font-weight: 400;
+        list-style-type: circle;
+}
